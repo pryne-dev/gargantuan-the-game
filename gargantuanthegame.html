@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>GARGANTUAN (The Game)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+	<div id="orientation-warning" style="display: none;">
+    	<img src="grafix/landscape.png" alt="Hello fellow Prynian - please turn your phone sideways!">
+	</div>
+	
+	
+	<div id="character-selection" class="overlay">
+	<!--<input type="file" id="audio-file" accept="audio/mp3">-->
+    <h5>HOW TO PLAY:</h5>
+    
+    <center><span style="font-size:10pt"><span style="color: yellow">tap</span>, <span style="color: yellow">click</span>, or <span style="color: yellow">press space bar</span> to jump</span></center>
+    <center><span style="font-size:10pt">over nasty headbeangers, but first...</span></center>
+
+    <h2>Choose Your Prynnie</h2>
+    <div class="character-options">
+        <div class="character" data-character="Marni">
+            <img src="sprites/Marni_prev_x3.png" alt="Character 1">
+        </div>
+        <div class="character" data-character="Chris">
+            <img src="sprites/Chris_prevx3.png" alt="Character 2">
+        </div>
+        <div class="character" data-character="rol">
+            <img src="sprites/rol_prevx3.png" alt="Character 3">
+        </div>
+		<div class="character" data-character="ruecken">
+            <img src="sprites/ruecken_prevx3.png" alt="Character 4">
+        </div>
+    </div>
+	</div>
+
+	
+    <div id="game-container">
+        <div id="player"></div>
+        <div id="loadingMessage">song loading ... plz wait a sec</div>
+        <button id="start-button">Start</button>
+        <button id="retry-button" style="display: none;">Retry</button>
+		<div id="progress">
+			<div id="progress-bar"></div>
+		</div>
+    <center>
+	<p id="runtime">GET TO THE STAGE!</p>
+	</center>
+    </div>
+    
+
+	<div id="game-over-message" style="display: none;">Game Over my Dude :O</div>
+	
+    <audio id="bg-music" src="audio/shortgarg.mp3"></audio>
+    
+    <script src="game.js"></script>
+</body>
+</html>
