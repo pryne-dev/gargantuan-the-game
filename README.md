@@ -1,5 +1,4 @@
 # Gargantuan-The-Game
-GARGANTUAN (the game)
 
 Action Jump&Run for the whole family, featuring the official OST "Gargantuan (the song)"
 
